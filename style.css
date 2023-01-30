@@ -1,0 +1,27 @@
+.btn-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+.btn {
+  cursor: pointer;
+  width: auto;
+  height: 40px;
+  border: 2px solid #200ee3;
+  border-radius: 5px;
+  background: #877fda61;
+  padding: 0px 10px;
+}
+
+.link {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+  font-family: serif;
+  font-size: 24px;
+  color: black;
+}
