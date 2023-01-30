@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Додати чекбокс вибору унікальних чисел -->
+    <section class="randomizer">
+      <section>
+        <form class="form" autocomplete="off">
+          <label for="nummin">Від</label>
+          <input
+            class="params-item--value"
+            type="number"
+            id="nummin"
+            name="nummin"
+            value="0"
+            min="0"
+            max="99"
+          />
+          <span class="help">min="0", max="99"</span>
+          <label for="nummax">До</label>
+          <input
+            class="param-item--value"
+            type="number"
+            id="nummax"
+            name="nummax"
+            value="100"
+            min="1"
+            max="100"
+          />
+          <span class="help">min="1", max="100"</span>
+          <label for="numcount">Кількість</label>
+          <input
+            class="param-item--value"
+            type="number"
+            id="numcount"
+            name="numcount"
+            value="1"
+            min="1"
+            max="999"
+          />
+          <span class="help">min="1", max="999"</span>
+
+          <button
+            type="submit"
+            class="btn btn-secondary btn-gensubmit"
+            data-gpage="numbers"
+            data-glang="numbers-ru"
+          >
+            Генерировать результат
+          </button>
+        </form>
+      </section>
+      <section class="generator-results col col-md-8 col-lg-6">
+        <div class="genresult">
+          <span>Результат:</span>
+          <div class="genresult-body">
+            <div id="resgen" class="large">0</div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>

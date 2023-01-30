@@ -1,0 +1,53 @@
+.randomizer {
+  width: 840px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0px;
+  margin: 0 auto;
+}
+
+.params-item--value {
+  background-color: rgba(119, 119, 119, 0.15);
+  border: none;
+  border-radius: 5px;
+  display: block;
+  line-height: 1.5;
+  padding: 5px 10px;
+  width: 100%;
+}
+.help {
+  color: #777;
+  display: block;
+  font-size: 12px;
+  line-height: 1.1;
+  margin: 2px 0 5px 10px;
+}
+
+.param-item--value {
+  background-color: rgba(119, 119, 119, 0.15);
+  border: none;
+  border-radius: 5px;
+  display: block;
+  line-height: 1.5;
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.generator-results {
+  display: block;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.genresult {
+  background-color: rgba(193, 218, 51, 0.1);
+  border: 2px solid rgba(43, 99, 168, 0.25);
+  border-radius: 5px;
+  position: relative;
+  margin-top: 15px;
+}
