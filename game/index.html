@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <script defer src="./index.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Довести до ума скрипт. Додати інформаційні вікна, несгораємі суми -->
+    <section class="section">
+      <div class="prize-help">
+        <div class="sector-help">
+          <img class="help fiffif" src="./img/50-50.png" alt="50-50" />
+          <img
+            class="help call"
+            src="./img/phone-a-friend.png"
+            alt="phone a friend"
+          />
+        </div>
+        <ul class="prize">
+          <li class="unlost prize-text a14"><span>15</span> $10,000,000</li>
+          <li class="prize-text a13"><span>14</span> $5,000,000</li>
+          <li class="prize-text a12"><span>13</span> $2,500,000</li>
+          <li class="prize-text a11"><span>12</span> $1,000,000</li>
+          <li class="prize-text a10"><span>11</span> $500,000</li>
+          <li class="unlost prize-text a9"><span>10</span> $100,000</li>
+          <li class="prize-text a8"><span>9</span> $50,000</li>
+          <li class="prize-text a7"><span>8</span> $30,000</li>
+          <li class="prize-text a6"><span>7</span> $20,000</li>
+          <li class="prize-text a5"><span>6</span> $10,000</li>
+          <li class="unlost prize-text a4"><span>5</span> $5,000</li>
+          <li class="prize-text a3"><span>4</span> $4,000</li>
+          <li class="prize-text a2"><span>3</span> $3,000</li>
+          <li class="prize-text a1"><span>2</span> $2,000</li>
+          <li class="prize-text a0"><span>1</span> $1,000</li>
+        </ul>
+      </div>
+      <div class="questions">
+        <div class="question">
+          <span id="question"
+            >В function foo(){console.log(this) ключове слово this
+            містить...?</span
+          >
+        </div>
+        <div class="answer 0">
+          <span class="a 0 spanAnswer"
+            >Область видимості, в якій визивається функція</span
+          >
+          <span class="b 1 spanAnswer"
+            >Область видимості, в якій функція була оголошена</span
+          >
+          <span class="c 2 spanAnswer"
+            >*Посилання на об'єкт, в контексті якого функція викликається</span
+          >
+          <span class="d 3 spanAnswer"
+            >Посилання на таблицю доступних змінних</span
+          >
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
